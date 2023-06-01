@@ -16,6 +16,7 @@ class Cat(Animal):
                f"\n{f'Cat type:':<15}{self.type_cat} "
 
 
+
 if __name__ == '__main__':
     Mur = Cat("Mur", 4, "British")
     print(Mur)
