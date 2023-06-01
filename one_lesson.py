@@ -1,8 +1,9 @@
 class Animal:
 
-    def __init__(self,name,age):
+    def __init__(self, name, age):
         self.name = name
         self.age = age
+
 
 class Cat(Animal):
     def __init__(self, name, age, type_cat):
